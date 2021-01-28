@@ -1,8 +1,8 @@
-# Social Distance Estimator
+# PersonTracker
 
 ## Overview
 
-This project is to detect persons on the place and estimate the social distance between them on Jetson Nano device. 
+This project is to detect & track persons on the place and estimate the social distance between them on Jetson Nano device. 
 If social distance is less than safe distance, the person is marked in green and if not, he will be marked in red.
 
 ## Structure
@@ -43,9 +43,6 @@ If social distance is less than safe distance, the person is marked in green and
     ``` 
     
 ## Execution
-
-- You can set the SAFE_DISTANCE as a safe distance (unit:cm) FOCUS_LENGTH as a calibration for each camera in settings file.
-
 - Please run the following command in terminal.
 
     ```
